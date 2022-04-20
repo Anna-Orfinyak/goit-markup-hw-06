@@ -1042,6 +1042,9 @@ img {
 }
 
 .contact-form-submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 700;
   font-size: 16px;
   line-height: 1,88;
@@ -1064,6 +1067,9 @@ img {
   color: var(--primary-white-color);
   background-color: #188ce8;
   cursor: pointer;
+}
+.contact-form-submit-btn .icon {
+  margin-left: 12px;
 }
 
 .subscribe-form {
